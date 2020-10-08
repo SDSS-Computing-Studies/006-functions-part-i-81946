@@ -18,10 +18,7 @@ def sum(a,b):
 #y = sum(11,1.5)
 
 
-a= input("Enter a")
-a= float(a)
 
-b= input("Enter b")
-b= float(b)
 
-print( sum(a,b) )
+print( (sum(11,2.5)) )
+print( (sum(8,-2)) )
