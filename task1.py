@@ -20,5 +20,5 @@ def sum(a,b):
 
 
 
-print( (sum(11,2.5)) )
-print( (sum(8,-2)) )
+print( (sum(3,4)) )
+print( (sum(11,1.5)) )

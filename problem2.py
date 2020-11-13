@@ -9,20 +9,29 @@ Note that the coordinates should be signed (positive or negative) floats
 """
 import math
 lists= []
+lists2= []
 
 x= input("Enter x:")
 y= input("Enter y:")
 x= float(x)
 y= float(y)
+lists.append(x)
+lists.append(y)
 
-def distance(x,y):
-    x=x+1
-    y=y+1
+a= input("Enter x2:")
+b= input("Enter y2:")
+a= float(a)
+b= float(b)
+lists2.append(a)
+lists2.append(b)
+def distance(lists,lists2):
+    d1= lists[0]+lists[1]
+    d2= lists2[0]+lists2[1]
+    
 
-    lists.append(x)
-    lists.append(y)
+    d= d2-d1
 
-    return lists
+    return d
 
 
 
@@ -36,4 +45,4 @@ def distance(x,y):
 # returns: a list of 2 numbers
 # function adds one to each of the input parameters and returns them
 #return [ x+1, y+1 ]
-print( distance(x,y) )
+print( distance(lists,lists2) )
